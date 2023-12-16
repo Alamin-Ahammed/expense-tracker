@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.expense-tracker {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.profile , .transactions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePhoto {
+    border-radius: 50%;
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
